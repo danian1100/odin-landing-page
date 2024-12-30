@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.header,
+.section1,
+.footer {
+    font-family: Roboto;
+    background-color: #1f2937;
+    color: white;
+}
+
+.section1 {
+    padding: 60px;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.first-text {
+    padding: 10px;
+}
+
+.first-text button {
+    border: none;
+}
+
+.hero-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-text2,
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 500px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.greyrec {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+button,
+.large-rec {
+    background-color: #3882f6;
+    color: white;
+}
+
+button {
+    padding: 3px 10px;
+    margin: 6px 0;
+    border-radius: 5px;
+}
+
+.borderrec {
+    width: 120px;
+    height: 120px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.rnd-info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding-top: 20px;
+}
+
+.author {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.info-rec {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 100px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 .text {
+    width: 100px;
+    text-align: justify;
+    justify-self: center;
+    
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    padding: 100px 150px;
+    text-align: justify;
+    align-content: end;
+}
+.section4 {
+    padding: 50px 100px;
+}
+
+.large-rec {
+    padding: 40px  100px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last-sign {
+    align-self: center;
+    align-self: center;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer {
+    text-align: center;
+}
